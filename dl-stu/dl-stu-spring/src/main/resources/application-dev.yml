@@ -1,0 +1,11 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /lzq
+duolun:
+  frame:
+    datasource:
+      master:
+        url: jdbc:mysql://192.168.10.103:3306/dl_tomp?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false&allowMultiQueries=true
+        username: root
+        password: root

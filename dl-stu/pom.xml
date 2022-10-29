@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.duolun</groupId>
+        <artifactId>dl-demos</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.duolun</groupId>
+    <artifactId>dl-stu</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>dl-stu</name>
+    <description>Demo project for Spring Boot</description>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+    <modules>
+        <module>dl-stu-common</module>
+        <module>dl-stu-netty</module>
+        <module>dl-stu-spring</module>
+        <module>dl-stu-boot</module>
+    </modules>
+</project>
